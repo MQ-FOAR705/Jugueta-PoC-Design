@@ -36,6 +36,10 @@ As a research student, I would like to store any notes I have written about the 
 
 As a research student, I would like to create a set of tags that will help me organise all my data (including articles, textual analysis data and research notes.
 
+\subsection*{Search My Research}
+
+As a research student, I would like software that would allow me to search through all newspaper articles, data from textual analysis and notes.
+
 \subsection*{Tag Newspaper Articles}
 
 As a research student, I would like software that would allow me to tag themes or keywords to the newspaper articles that have been analysed.
@@ -47,10 +51,6 @@ As a research student, I would like software that would allow me to tag themes o
 \subsection*{Tag Notes}
 
 As a research student, I would like software that would allow me to tag themes or keywords to the notes that I have written as part of my research.
-
-\subsection*{Search My Research}
-
-As a research student, I would like software that would allow me to search through all newspaper articles, data from textual analysis and notes.
 
 \section*{Acceptance Criteria}
 
@@ -80,29 +80,80 @@ As a research student, I should be able to:
 
 \subsection*{Additional Notes}
 
-
+As a research student, I should be able to:
+\begin{enumerate}
+    \item Open a new .txt file
+    \item Write any notes that I have about the analysed text in a .txt file
+    \item Save the .txt file in the /Jugueta/MRes/notes/textualanalysis/ directory
+\end{enumerate}
 
 \subsection*{Create Tags}
 
-
-
-\subsection*{Tag Newspaper Articles}
-
-
-
-\subsection*{Tag Analysis}
-
-
-
-\subsection*{Tag Notes}
-
-
+As a research student, I should be able to:
+\begin{enumerate}
+    \item Launch VirtualBoxVM
+    \item Set the Shared Folder to /Jugueta/MRes/
+    \item Start Open Semantic Desktop Search
+    \item Click on the Activities menu in Open Semantic Desktop Search
+    \item Click on Index documents to ensure that I am working with the right directory
+    \item Click on Manage structure
+    \item Click on Add new entry
+    \item Enter a name for the tag and select tag in Facet type
+    \item Click Save
+\end{enumerate}
 
 \subsection*{Search My Research}
 
+As a research student, I should be able to:
+\begin{enumerate}
+    \item Launch VirtualBoxVM
+    \item Start Open Semantic Desktop Search
+    \item Use the Search option to find items relevant to the search query
+    \item Use the Advanced Search to be more succinct with my search
+\end{enumerate}
 
+\subsection*{Tag Newspaper Articles}
 
+As a research student, I should be able to:
+\begin{enumerate}
+    \item Launch VirtualBoxVM
+    \item Start Open Semantic Desktop Search
+    \item Find a newspaper article using the Search feature in Open Semantic Desktop Search
+    \item Click the Tagging \& annotation button
+    \item Go to the Tags tab
+    \item Click on the appropriate tag(s)
+\end{enumerate}
 
+\subsection*{Tag Analysis}
 
+As a research student, I should be able to:
+\begin{enumerate}
+    \item Launch VirtualBoxVM
+    \item Start Open Semantic Desktop Search
+    \item Find data from textual analysis using the Search feature in Open Semantic Desktop Search
+    \item Click the Tagging \& annotation button
+    \item Go to the Tags tab
+    \item Click on the appropriate tag(s)
+\end{enumerate}
+
+\subsection*{Tag Notes}
+
+As a research student, I should be able to:
+\begin{enumerate}
+    \item Launch VirtualBoxVM
+    \item Start Open Semantic Desktop Search
+    \item Find the notes I have made for my research using the Search feature in Open Semantic Desktop Search
+    \item Click the Tagging \& annotation button
+    \item Go to the Tags tab
+    \item Click on the appropriate tag(s)
+\end{enumerate}
+
+\section*{Prerequisites}
+
+All stories require that the first three stories: \textbf{Identify Themes}, \textbf{Store Analysis} and \textbf{Additional Notes} are completed (ideally in order as presented) before continuing with the other stories.
+
+The stories of \textbf{Create Tags} and \textbf{Search my Research} do not necessarily go in any particular order. To explain, one could use \textbf{Search my Research} to find emergent themes in the notes, data, articles themselves and then conceive of a tag that would be useful. Conversely, one could have tagged some items then use the search feature to find them again. 
+
+The stories of \textbf{Tag Newspaper Articles}, \textbf{Tag Analysis}, \textbf{Tag Notes} will require that the items are found before they are tagged, so it would be safe to assume that \textbf{Search my Research} would need to happen before these three stories. However, once tags have been assigned to newspaper articles, analyses and notes, \textbf{Search My Research} could be used again after the tagging has been performed.
 
 \end{document}
